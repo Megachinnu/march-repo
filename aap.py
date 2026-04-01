@@ -1,3 +1,14 @@
 Hi app.py
 how is the GIT hub class
 we are happy to learn this course
+public class HelloWorld {
+
+    public static void main(String[] args) {
+
+        // Creates a reader instance which takes
+        // input from standard input - keyboard
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        // nextInt() reads the next integer from the keyboard
+        int number = reader.nextInt();
